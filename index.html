@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <div class="header-left">
+            <button class="hamburger-menu" id="hamburger" aria-label="Open menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </button>
+            <img src="./categories/yt_logo.png" alt="YouTube Logo" class="logo">
+        </div>
+
+        <div class="header-middle">
+            <div class="search-wrapper">
+                <input type="text" class="search-input" placeholder="Search">
+                <button class="search-button" aria-label="Search">
+                    <img class="search-icon" src="./categories/search_icon.png" alt="Search">
+                </button>
+            </div>
+            <button class="mic btn-icon" aria-label="Voice search">
+                <img class="mic-icon" src="./categories/mic.png" alt="Voice search">
+            </button>
+        </div>
+
+        <div class="header-right">
+            <button class="icon-btn">Create</button>
+            <button class="icon-btn">Apps</button>
+            <button class="icon-btn profile-btn">U</button>
+        </div>
+    </header>
+
+    <div class="page-layout">
+        <aside class="sidebar" id="sidebar">
+            <nav>
+                <button class="sidebar-item active">Home</button>
+                <button class="sidebar-item">Shorts</button>
+                <button class="sidebar-item">Subscriptions</button>
+                <hr>
+                <button class="sidebar-item">Library</button>
+                <button class="sidebar-item">History</button>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <section class="chips-row">
+                <button class="chip active">All</button>
+                <button class="chip">Music</button>
+                <button class="chip">Mixes</button>
+                <button class="chip">Movie musicals</button>
+                <button class="chip">Podcasts</button>
+                <button class="chip">News</button>
+                <button class="chip">Live</button>
+            </section>
+
+            <section class="video-grid">
+                <article class="video-card">
+                    <div class="video-preview">
+                            <div class="video-thumb" tabindex="0" role="button" aria-label="Play video: Media on Petrol" data-video-id="b2w0ik7lr5A" data-original-src="https://www.youtube.com/embed/b2w0ik7lr5A?modestbranding=1&rel=0">
+                                <img src="https://img.youtube.com/vi/b2w0ik7lr5A/hqdefault.jpg" alt="thumb">
+                                <button class="thumb-play" aria-label="Play"></button>
+                            </div>
+                    </div>
+                    <div class="video-info">
+                        <div class="video-title">Media on Petrol,Ranveer Banned,CJP Blocked & more...||Midweek</div>
+                        <div class="video-meta">1.2M views • 2 days ago</div>
+                    </div>
+                </article>
+
+                <article class="video-card">
+                    <div class="video-preview">
+                            <div class="video-thumb" tabindex="0" role="button" aria-label="Play video: INDIA'S BROKEN POLITICS" data-video-id="-gy78kmy0Jg" data-original-src="https://www.youtube.com/embed/-gy78kmy0Jg?modestbranding=1&rel=0">
+                                <img src="https://img.youtube.com/vi/-gy78kmy0Jg/hqdefault.jpg" alt="thumb">
+                                <button class="thumb-play" aria-label="Play"></button>
+                            </div>
+                    </div>
+                    <div class="video-info">
+                        <div class="video-title">INDIA'S BROKEN POLITICS: Why Honest Politicians Can't win in India Elections?</div>
+                        <div class="video-meta">935K views • 5 days ago</div>
+                    </div>
+                </article>
+
+                <article class="video-card">
+                    <div class="video-preview">
+                            <div class="video-thumb" tabindex="0" role="button" aria-label="Play video: CBSE Butchering An Entire Generation" data-video-id="Xw9zkyV4Cb8" data-original-src="https://www.youtube.com/embed/Xw9zkyV4Cb8?modestbranding=1&rel=0">
+                                <img src="https://img.youtube.com/vi/Xw9zkyV4Cb8/hqdefault.jpg" alt="thumb">
+                                <button class="thumb-play" aria-label="Play"></button>
+                            </div>
+                    </div>
+                    <div class="video-info">
+                        <div class="video-title">CBSE Butchering An Entire Generation of Indian Students</div>
+                        <div class="video-meta">642K views • 1 week ago</div>
+                    </div>
+                </article>
+
+                <article class="video-card">
+                    <div class="video-preview">
+                            <div class="video-thumb" tabindex="0" role="button" aria-label="Play video: How IPL Fixing was Exposed" data-video-id="Sto_DoTWwOo" data-original-src="https://www.youtube.com/embed/Sto_DoTWwOo?modestbranding=1&rel=0">
+                                <img src="https://img.youtube.com/vi/Sto_DoTWwOo/hqdefault.jpg" alt="thumb">
+                                <button class="thumb-play" aria-label="Play"></button>
+                            </div>
+                    </div>
+                    <div class="video-info">
+                        <div class="video-title">How IPL Fixing was Exposed?</div>
+                        <div class="video-meta">1.8M views • 3 days ago</div>
+                    </div>
+                </article>
+
+                <article class="video-card">
+                    <div class="video-preview">
+                            <div class="video-thumb" tabindex="0" role="button" aria-label="Play video: Oggy and the Cockroaches" data-video-id="MBKgWORXkYk" data-original-src="https://www.youtube.com/embed/MBKgWORXkYk?modestbranding=1&rel=0">
+                                <img src="https://img.youtube.com/vi/MBKgWORXkYk/hqdefault.jpg" alt="thumb">
+                                <button class="thumb-play" aria-label="Play"></button>
+                            </div>
+                    </div>
+                    <div class="video-info">
+                        <div class="video-title">Oggy and the Cockroaches || Hindi Cartoons for kids</div>
+                        <div class="video-meta">790K views • 6 hours ago</div>
+                    </div>
+                </article>
+
+                <article class="video-card">
+                    <div class="video-preview">
+                            <div class="video-thumb" tabindex="0" role="button" aria-label="Play video: India vs England" data-video-id="-8cM3KfSqjE" data-original-src="https://www.youtube.com/embed/-8cM3KfSqjE?modestbranding=1&rel=0">
+                                <img src="https://img.youtube.com/vi/-8cM3KfSqjE/hqdefault.jpg" alt="thumb">
+                                <button class="thumb-play" aria-label="Play"></button>
+                            </div>
+                    </div>
+                    <div class="video-info">
+                        <div class="video-title">India vs England || Peak Cinema</div>
+                        <div class="video-meta">1.2M views • 2 days ago</div>
+                    </div>
+                </article>
+            </section>
+        </main>
+    </div>
+    
+</body>
+</html>
